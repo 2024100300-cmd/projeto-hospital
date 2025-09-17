@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="5Y?_i=6yW(I|69J:bBT_" x="22" y="-363"></block><block type="basic_show_icon" id="FpxXQZ@P!p/h~nWI[LIx" disabled-reasons="pxt_automatic_disabled" x="261" y="-358"><field name="i">IconNames.SmallDiamond</field></block><block type="device_forever" id="{^rj?6e`QY!_VArLV`kY" x="34" y="-281"></block><block type="device_show_leds" id="?vQVl20ND[?#WCL%f6_*" disabled-reasons="pxt_automatic_disabled" x="0" y="0"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_show_leds" id="Y[3-9T7Q#~sTo|?Y2D)U" disabled-reasons="pxt_automatic_disabled" x="479" y="-12"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block><block type="device_show_leds" id="^Wz=a|^@H8v_:;l@d[RI" disabled-reasons="pxt_automatic_disabled" x="308" y="29"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # # # # # 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="81`|7,*A:2Acert_cRZ(" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        . # # . . 
+        # # # . . 
+        . # # # # 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block><block type="device_show_leds" id="H}m{Fq_RFH,EXg-g,(U~" disabled-reasons="pxt_automatic_disabled" x="668" y="513"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . # . # .
+        `</field></block><block type="device_gesture_event" id="TYCN3HGJM1jfKn=GU_[B" x="229" y="637"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_clear_display" id="4Yvr`WBRc-Tcm]X+d~OJ"><next><block type="radio_datagram_send_string" id="JCT}Q024Hb-*TbcC9,q)"><value name="msg"><shadow type="text" id=";HQN_(2FD]H,7#nqtM%z"><field name="TEXT">sass</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id=".%TOew=:XM;:n:yF/8nz" disabled-reasons="pxt_automatic_disabled" x="-54" y="655"><statement name="HANDLER"><block type="radio_set_group" id="pJcL#y-evFL?-8{[.VHg" disabled-reasons="pxt_automatic_disabled"><value name="ID"><shadow type="math_number_minmax" id="nZ}?.9`p1M]/mrgkq~.," disabled-reasons="pxt_automatic_disabled"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">11</field></shadow></value></block></statement></block><block type="device_show_leds" id="tme|8Lv2yG_VL]}24I@E" disabled-reasons="pxt_automatic_disabled" x="741" y="681"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block><block type="radio_on_string_drag" id="ATRi8H9rO}:#G]+L0]V=" x="-80" y="859"><value name="HANDLER_DRAG_PARAM_receivedString"><block type="argument_reporter_string" id="PGIO_5#)fSepWKtR1|?C" deletable="false"><mutation localizationname="radio.onReceivedString|handlerParam|receivedString"></mutation><field name="VALUE">receivedString</field></block></value><statement name="HANDLER"><block type="basic_show_icon" id="+OTKdD.4z4y@:iroov3Y"><field name="i">IconNames.Heart</field></block></statement></block></xml>
